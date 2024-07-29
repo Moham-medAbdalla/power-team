@@ -10,8 +10,11 @@ a {
 .pt{
   align-items: center;
   max-width: 100%;
-  height: auto;
+  height: 200px;
   width: auto\9;
+  background-image: url(./images/Power-Team-transparent-05.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .P{
