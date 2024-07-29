@@ -14,6 +14,22 @@ a {
   width: auto\9;
 }
 
+.P{
+  color: white;
+  font-size:50pt;
+  margin-inline: 50px;
+
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.Pa{
+  color: white;
+  font-size:50pt;
+  margin-inline: 50px;
+  direction: rtl;
+}
+
 /*.top{
   height: 5px;
   position: sticky;
@@ -27,22 +43,6 @@ a {
     margin: 0 auto;
   }
 
-
-  .P{
-    color: white;
-    font-size:50pt;
-    margin-inline: 50px;
-
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-  }
-
-  .Pa{
-    color: white;
-    font-size:50pt;
-    margin-inline: 50px;
-    direction: rtl;
-  }
 
   
   body {
