@@ -49,7 +49,11 @@ a {
 
   
   body {
-    background-color: #141124;
+    background-image: url(/images/Power-Team-BG-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     font-family:Arial, Helvetica, sans-serif;
   }
   .ag-courses_box {
