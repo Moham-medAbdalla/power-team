@@ -20,7 +20,7 @@ a {
 
 .P{
   color: white;
-  font-size:50pt;
+  font-size:67px;
   margin-inline: 50px;
 
   overflow: hidden;
@@ -29,24 +29,63 @@ a {
 
 .Pa{
   color: white;
-  font-size:50pt;
+  font-size:67px;
   margin-inline: 50px;
   direction: rtl;
 }
 
-/*.top{
-  height: 5px;
-  position: sticky;
-  top: 228px;
-  border-bottom: 1px solid white;
-  background-color: #141124;
-}*/
+.P1{
+  color: white;
+  font-size: 50px;
+  margin-inline: 50px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
 
-.ag-format-container {
-    width: 1142px;
-    margin: 0 auto;
+.Pa1{
+  color: white;
+  font-size:50px;
+  margin-inline: 50px;
+  direction: rtl;
+}
+
+body {
+  background-image: url(./images/Power-Team-BG-05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(./images/Power-Team-BG-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .P1{
+    color: white;
+    font-size: 50px;
+    margin-inline: 50px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
   }
   
+  .Pa1{
+    color: white;
+    font-size:50px;
+    margin-inline: 50px;
+    direction: rtl;
+  }
+}
+
+@media (max-width: 767px) {
   body {
     background-image: url(./images/Power-Team-BG-05.jpg);
     background-repeat: no-repeat;
@@ -56,30 +95,30 @@ a {
     font-family:Arial, Helvetica, sans-serif;
   }
 
-
-  @media (min-width: 768px) {
-    body {
-      background-image: url(./images/Power-Team-BG-03.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
-      font-family:Arial, Helvetica, sans-serif;
-    }
+  .P1{
+    color: white;
+    font-size: 30px;
+    margin-inline: 10px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
   }
-
-  @media (max-width: 767px) {
-    body {
-      background-image: url(./images/Power-Team-BG-05.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center;
-      font-family:Arial, Helvetica, sans-serif;
-    }
+  
+  .Pa1{
+    color: white;
+    font-size:30px;
+    margin-inline: 10px;
+    direction: rtl;
   }
+}
 
 
+
+.ag-format-container {
+    width: 1142px;
+    margin: 0 auto;
+  }
+  
+  
   .ag-courses_box {
     display: -webkit-box;
     display: -ms-flexbox;
